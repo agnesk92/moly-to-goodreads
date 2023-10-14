@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <reading>
+    <book>Mihail Bulgakov: A Mester és Margarita</book>
+    <created_at>2010. február  2., 15:12</created_at>
+    <start_time>2010. február  2., 15:12</start_time>
+    <end_time>2010. február 23., 19:20</end_time>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages/>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Madách Imre: Az ember tragédiája</book>
+    <created_at>2010. február  3., 20:23</created_at>
+    <start_time>2010. február  3., 20:23</start_time>
+    <end_time>2010. február  3., 20:23</end_time>
+    <earlier>true</earlier>
+    <stopped>false</stopped>
+    <pages/>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Mikhail Bulgakov: The Master and Margarita</book>
+    <publisher>Recorded Books</publisher>
+    <place_of_publication>Prince Frederick</place_of_publication>
+    <year_of_publication>2006</year_of_publication>
+    <created_at>2022. július 26., 09:27</created_at>
+    <start_time>2022. július 26., 09:27</start_time>
+    <end_time>2022. július 26., 09:28</end_time>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages/>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Roald Dahl: Matilda (angol)</book>
+    <publisher>Puffin</publisher>
+    <place_of_publication>London</place_of_publication>
+    <year_of_publication>2016</year_of_publication>
+    <created_at>2022. december 11., 11:01</created_at>
+    <start_time>2022. december 11., 11:01</start_time>
+    <end_time>2022. december 18., 14:01</end_time>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages/>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Rutger Bregman: Humankind</book>
+    <publisher>Bloomsbury</publisher>
+    <place_of_publication>London</place_of_publication>
+    <year_of_publication>2021</year_of_publication>
+    <created_at>2023. július  7., 10:45</created_at>
+    <start_time>2023. július  7., 10:45</start_time>
+    <end_time>2023. július  7., 10:46</end_time>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages>466</pages>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Greta Thunberg: No One Is Too Small to Make a Difference</book>
+    <publisher>Penguin</publisher>
+    <place_of_publication>London</place_of_publication>
+    <year_of_publication>2021</year_of_publication>
+    <created_at>2023. július  7., 17:10</created_at>
+    <start_time>2023. július  7., 17:10</start_time>
+    <end_time>2023. július  8., 18:10</end_time>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages>96</pages>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+  <reading>
+    <book>Andrew Hunt - David Thomas: The Pragmatic Programmer</book>
+    <publisher>Addison-Wesley</publisher>
+    <place_of_publication></place_of_publication>
+    <year_of_publication>2020</year_of_publication>
+    <created_at>2023. július 10., 09:59</created_at>
+    <start_time>2023. július 10., 09:59</start_time>
+    <end_time/>
+    <earlier>false</earlier>
+    <stopped>false</stopped>
+    <pages/>
+    <note/>
+    <comments>
+    </comments>
+  </reading>
+</xml>
