@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func WriteCsv(csvData [][]string, csvPath string) {
+func WriteCSV(csvData [][]string, csvPath string) {
 	f, err := os.Create(csvPath)
 	if err != nil {
 		panic(err)
@@ -19,7 +19,7 @@ func WriteCsv(csvData [][]string, csvPath string) {
 	}
 }
 
-func ReadXml(xmlPath string) []byte {
+func ReadXML(xmlPath string) []byte {
 	xmlFile, err := os.Open(xmlPath)
 	if err != nil {
 		panic(err)

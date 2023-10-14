@@ -1,0 +1,41 @@
+name: Test & Lint Code
+
+on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - ".github/**"
+      - ".githooks/**"
+  pull_request:
+    paths-ignore:
+      - ".github/**"
+      - ".githooks/**"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Go
+        uses: actions/setup-go@v4
+      - name: Install Tools
+        run: make install
+      - name: Run Test
+        run: make test
+
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Go
+        uses: actions/setup-go@v4
+      - name: Install Tools
+        run: make install
+      - name: Lint Go
+        run: make lint
