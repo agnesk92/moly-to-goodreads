@@ -9,5 +9,3 @@ go run ./main.go --sourcefile ./data/moly.xml --targetfile ./data/goodreads.csv
 ## Collaboration
 
 For help, run `make`.
-
-Make recipees offer testing, formatting linting and some other things.
