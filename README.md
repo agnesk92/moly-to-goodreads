@@ -1,4 +1,4 @@
-# Transformer for Good Reads
+# Transformer for Good Reads 📚
 
 Data transformer to migrate from moly.hu to goodreads.com.
 
@@ -6,6 +6,6 @@ Data transformer to migrate from moly.hu to goodreads.com.
 go run ./main.go --sourcefile ./data/moly.xml --targetfile ./data/goodreads.csv
 ```
 
-## Collaboration
+## Collaboration 🫂
 
 For help, run `make`.
